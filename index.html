@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pragadeeswaran V | ECE & IoT Specialist | Data Analytics Portfolio</title>
+    <meta name="description" content="Portfolio of Pragadeeswaran V - Electronics & Communication Engineer specializing in IoT, Data Analytics, Python, and AI/ML solutions.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-dark">
+    <!-- Ambient Background Effects -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-grid"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                PRAGADEESWARAN <span class="logo-accent">V</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link"><i class="fa-solid fa-user"></i> About</a></li>
+                <li><a href="#skills" class="nav-link"><i class="fa-solid fa-code"></i> Skills</a></li>
+                <li><a href="#experience" class="nav-link"><i class="fa-solid fa-briefcase"></i> Experience</a></li>
+                <li><a href="#projects" class="nav-link"><i class="fa-solid fa-microchip"></i> Projects</a></li>
+                <li><a href="#certifications" class="nav-link"><i class="fa-solid fa-award"></i> Certifications</a></li>
+                <li><a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="btn btn-outline btn-sm" id="btn-resume-modal">
+                    <i class="fa-solid fa-file-pdf"></i> View Resume
+                </button>
+                <button class="theme-toggle" id="theme-toggle" title="Toggle Theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer">
+        <ul class="mobile-nav-links">
+            <li><a href="#about" class="mobile-link">About</a></li>
+            <li><a href="#skills" class="mobile-link">Skills</a></li>
+            <li><a href="#experience" class="mobile-link">Experience & Education</a></li>
+            <li><a href="#projects" class="mobile-link">Projects</a></li>
+            <li><a href="#certifications" class="mobile-link">Certifications</a></li>
+            <li><a href="#contact" class="mobile-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge hero-badge">
+                        <span class="pulse-dot"></span> Open to Analyst Roles in Business, Finance, AML & Banking
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Pragadeeswaran V</span>
+                    </h1>
+                    <h2 class="hero-subtitle">
+                        Business, Financial & AML Risk Analyst | BI & Data Intelligence
+                    </h2>
+                    <p class="hero-description">
+                        ECE Graduate (CGPA 8.1) with healthcare data verification experience, specializing in financial risk analytics, automated AML monitoring, Power BI business intelligence dashboards, and SQL/Python data engineering.
+                    </p>
+                    
+                    <div class="hero-tags">
+                        <span class="tag"><i class="fa-solid fa-chart-line"></i> Power BI & DAX</span>
+                        <span class="tag"><i class="fa-solid fa-shield-halved"></i> AML & KYC Risk</span>
+                        <span class="tag"><i class="fa-solid fa-database"></i> SQL Querying</span>
+                        <span class="tag"><i class="fa-brands fa-python"></i> Python Analytics</span>
+                        <span class="tag"><i class="fa-solid fa-file-invoice-dollar"></i> Healthcare RCM</span>
+                        <span class="tag"><i class="fa-solid fa-wand-magic-sparkles"></i> Prompt Eng</span>
+                    </div>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fa-solid fa-rocket"></i> Financial & BI Projects
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <i class="fa-solid fa-paper-plane"></i> Get in Touch
+                        </a>
+                        <button class="btn btn-glass" id="btn-quick-contact">
+                            <i class="fa-solid fa-phone"></i> +91 9345832080
+                        </button>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="8.1">8.1</span>
+                            <span class="stat-label">B.E. CGPA</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="5">5+</span>
+                            <span class="stat-label">Analytics Projects</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="98">98%</span>
+                            <span class="stat-label">Data Accuracy</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-number" data-target="4">4+</span>
+                            <span class="stat-label">Certifications</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="profile-card-wrapper">
+                        <div class="profile-card glass-card">
+                            <div class="profile-avatar">
+                                <div class="avatar-ring"></div>
+                                <div class="avatar-inner">
+                                    <img src="profile.jpg" alt="PRAGADEESWARAN V" class="profile-img">
+                                </div>
+                            </div>
+                            <h3 class="profile-name">PRAGADEESWARAN V</h3>
+                            <p class="profile-role">Business, Finance & AML Analyst</p>
+                            <p class="profile-location"><i class="fa-solid fa-location-dot"></i> Trichy, Tamil Nadu</p>
+                            
+                            <div class="profile-divider"></div>
+                            
+                            <div class="profile-contact-list">
+                                <a href="mailto:pragadeesh2704@gmail.com" class="profile-contact-item">
+                                    <i class="fa-solid fa-envelope"></i> pragadeesh2704@gmail.com
+                                </a>
+                                <a href="tel:+919345832080" class="profile-contact-item">
+                                    <i class="fa-solid fa-phone"></i> +91 9345832080
+                                </a>
+                            </div>
+
+                            <div class="profile-socials">
+                                <a href="https://www.linkedin.com/in/pragadeeswaran-v" target="_blank" class="social-btn" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="https://github.com/Pragadeeswaran2704" target="_blank" class="social-btn" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                                <a href="mailto:pragadeesh2704@gmail.com" class="social-btn" title="Email"><i class="fa-solid fa-paper-plane"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About / Executive Summary -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Executive Overview</span>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="grid grid-2 gap-lg">
+                    <div class="glass-card about-card">
+                        <div class="card-icon"><i class="fa-solid fa-user-graduate"></i></div>
+                        <h3>Professional Profile</h3>
+                        <p class="lead-text">
+                            Electronics and Communication Engineering graduate with a strong background in IoT, data analytics, and emerging technologies.
+                        </p>
+                        <p>
+                            Developed proficiency in Python, SQL, data visualization, and digital marketing, with extensive experience using MS Office tools to support productivity. Recognized for clear communication, teamwork, and strategic planning abilities. Gained practical experience through certifications, workshops, and hands-on projects with a proven record of delivering practical solutions.
+                        </p>
+                        <div class="highlights-grid">
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>IoT Architecture & Sensors</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>Data Analytics & SQL</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>AI/ML Database Integration</span>
+                            </div>
+                            <div class="highlight-item">
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>Strategic Problem Solving</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card languages-card">
+                        <div class="card-icon"><i class="fa-solid fa-language"></i></div>
+                        <h3>Languages & Key Strengths</h3>
+                        
+                        <div class="lang-group">
+                            <div class="lang-item">
+                                <div class="lang-info">
+                                    <span class="lang-name">English</span>
+                                    <span class="lang-level">Professional Proficiency</span>
+                                </div>
+                                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 90%;"></div></div>
+                            </div>
+                            <div class="lang-item">
+                                <div class="lang-info">
+                                    <span class="lang-name">Tamil</span>
+                                    <span class="lang-level">Native / Mother Tongue</span>
+                                </div>
+                                <div class="progress-bar-bg"><div class="progress-bar-fill" style="width: 100%;"></div></div>
+                            </div>
+                        </div>
+
+                        <h4 class="mt-md">Soft Skills & Capabilities</h4>
+                        <div class="soft-skills-cloud">
+                            <span class="pill-badge"><i class="fa-solid fa-comments"></i> Communication</span>
+                            <span class="pill-badge"><i class="fa-solid fa-chess"></i> Strategic Planning</span>
+                            <span class="pill-badge"><i class="fa-solid fa-people-group"></i> Teamwork & Adaptability</span>
+                            <span class="pill-badge"><i class="fa-solid fa-clock"></i> Time Management</span>
+                            <span class="pill-badge"><i class="fa-solid fa-magnifying-glass"></i> Situational Analysis</span>
+                            <span class="pill-badge"><i class="fa-solid fa-lightbulb"></i> Problem Solving</span>
+                            <span class="pill-badge"><i class="fa-solid fa-shield-halved"></i> Work Ethics & Reliability</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Matrix -->
+        <section id="skills" class="section bg-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Technical Mastery</span>
+                    <h2 class="section-title">Hard Skills & Competencies</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-filter-bar">
+                    <button class="skill-filter-btn active" data-filter="all">All Skills</button>
+                    <button class="skill-filter-btn" data-filter="data">Data & Analytics</button>
+                    <button class="skill-filter-btn" data-filter="iot">IoT & Hardware</button>
+                    <button class="skill-filter-btn" data-filter="tech">Programming & Tools</button>
+                </div>
+
+                <div class="grid grid-3 gap-md" id="skills-grid">
+                    <!-- Skill Card 1 -->
+                    <div class="glass-card skill-card" data-category="data">
+                        <div class="skill-head">
+                            <div class="skill-icon icon-blue"><i class="fa-solid fa-chart-column"></i></div>
+                            <div>
+                                <h4>Data Visualization</h4>
+                                <span class="skill-category">Data Analytics</span>
+                            </div>
+                        </div>
+                        <p class="skill-desc">Crafting insightful charts, Power BI dashboards, and visual reports from raw data streams.</p>
+                        <div class="skill-level">
+                            <div class="level-dots">
+                                <span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot"></span>
+                            </div>
+                            <span class="level-label">Advanced</span>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 2 -->
+                    <div class="glass-card skill-card" data-category="data">
+                        <div class="skill-head">
+                            <div class="skill-icon icon-purple"><i class="fa-solid fa-database"></i></div>
+                            <div>
+                                <h4>SQL & Relational DB</h4>
+                                <span class="skill-category">Database Systems</span>
+                            </div>
+                        </div>
+                        <p class="skill-desc">Querying, database integration for IoT streams, data transformation, and schema querying.</p>
+                        <div class="skill-level">
+                            <div class="level-dots">
+                                <span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot"></span>
+                            </div>
+                            <span class="level-label">Proficient</span>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 3 -->
+                    <div class="glass-card skill-card" data-category="tech">
+                        <div class="skill-head">
+                            <div class="skill-icon icon-yellow"><i class="fa-brands fa-python"></i></div>
+                            <div>
+                                <h4>Python Programming</h4>
+                                <span class="skill-category">Core Language</span>
+                            </div>
+                        </div>
+                        <p class="skill-desc">Data manipulation, script automation, algorithmic modeling, and AI/ML module integration.</p>
+                        <div class="skill-level">
+                            <div class="level-dots">
+                                <span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot"></span>
+                            </div>
+                            <span class="level-label">Proficient</span>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 4 -->
+                    <div class="glass-card skill-card" data-category="iot">
+                        <div class="skill-head">
+                            <div class="skill-icon icon-green"><i class="fa-solid fa-wifi"></i></div>
+                            <div>
+                                <h4>Internet of Things (IoT)</h4>
+                                <span class="skill-category">Hardware & Communication</span>
+                            </div>
+                        </div>
+                        <p class="skill-desc">Sensor telemetry, microcontrollers, emergency communication systems, and real-time alerts.</p>
+                        <div class="skill-level">
+                            <div class="level-dots">
+                                <span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot active"></span>
+                            </div>
+                            <span class="level-label">Expert Focus</span>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 5 -->
+                    <div class="glass-card skill-card" data-category="tech">
+                        <div class="skill-head">
+                            <div class="skill-icon icon-cyan"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                            <div>
+                                <h4>Prompt Engineering</h4>
+                                <span class="skill-category">Generative AI</span>
+                            </div>
+                        </div>
+                        <p class="skill-desc">Leveraging LLM prompt structures, AI-assisted development, and AI workflow optimization.</p>
+                        <div class="skill-level">
+                            <div class="level-dots">
+                                <span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot"></span>
+                            </div>
+                            <span class="level-label">Proficient</span>
+                        </div>
+                    </div>
+
+                    <!-- Skill Card 6 -->
+                    <div class="glass-card skill-card" data-category="tech">
+                        <div class="skill-head">
+                            <div class="skill-icon icon-red"><i class="fa-solid fa-bullhorn"></i></div>
+                            <div>
+                                <h4>Digital Marketing & MS Office</h4>
+                                <span class="skill-category">Productivity & Strategy</span>
+                            </div>
+                        </div>
+                        <p class="skill-desc">MS Excel, PowerPoint analytics, digital outreach strategies, and documentation excellence.</p>
+                        <div class="skill-level">
+                            <div class="level-dots">
+                                <span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot active"></span><span class="dot active"></span>
+                            </div>
+                            <span class="level-label">Mastery</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience & Education Timeline -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Journey & Qualifications</span>
+                    <h2 class="section-title">Experience & Education</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="timeline-wrapper">
+                    <div class="timeline-track"></div>
+
+                    <!-- Timeline Item 0: Omega Healthcare -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot icon-work"><i class="fa-solid fa-notes-medical"></i></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <span class="badge badge-primary">Healthcare Data & RCM</span>
+                                    <h3 class="timeline-title">AR Process Associate</h3>
+                                    <h4 class="timeline-org"><i class="fa-solid fa-hospital-user"></i> Omega Healthcare</h4>
+                                </div>
+                                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Oct 03, 2025 – Mar 11, 2026</span>
+                            </div>
+                            <p class="timeline-text">
+                                Performed high-volume healthcare data validation, auditing patient insurance eligibility and pharmacy claims across multi-payer databases. Analyzed eligibility variances to prevent claim rejections and reported daily verification performance metrics.
+                            </p>
+                            <div class="timeline-tags">
+                                <span><i class="fa-solid fa-database"></i> Data Validation</span>
+                                <span><i class="fa-solid fa-magnifying-glass-chart"></i> Discrepancy Analysis</span>
+                                <span><i class="fa-solid fa-file-medical"></i> Insurance & Pharmacy Verification</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot icon-work"><i class="fa-solid fa-briefcase"></i></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <span class="badge badge-primary">Internship</span>
+                                    <h3 class="timeline-title">IoT Intern</h3>
+                                    <h4 class="timeline-org"><i class="fa-solid fa-building"></i> Aiverz Technologies</h4>
+                                </div>
+                                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Practical Internship</span>
+                            </div>
+                            <p class="timeline-text">
+                                Completed an intensive hands-on internship in Internet of Things (IoT) hardware-software architecture, sensor integrations, embedded communication protocols, and real-world system testing.
+                            </p>
+                            <div class="timeline-tags">
+                                <span><i class="fa-solid fa-microchip"></i> Microcontrollers</span>
+                                <span><i class="fa-solid fa-wifi"></i> Telemetry Protocols</span>
+                                <span><i class="fa-solid fa-gears"></i> Sensor Modules</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot icon-edu"><i class="fa-solid fa-graduation-cap"></i></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <span class="badge badge-success">B.E. Degree (CGPA 8.1)</span>
+                                    <h3 class="timeline-title">B.E. Electronics & Communication Engineering</h3>
+                                    <h4 class="timeline-org"><i class="fa-solid fa-university"></i> M.I.E.T. Engineering College, Trichy</h4>
+                                </div>
+                                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> 2021 – 2025</span>
+                            </div>
+                            <p class="timeline-text">
+                                Graduated with a strong academic standing of <strong>CGPA 8.1</strong>. Specialized in signals & systems, IoT design, digital data analytics, embedded systems, and communication engineering.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot icon-edu"><i class="fa-solid fa-school"></i></div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <div>
+                                    <span class="badge badge-info">Secondary Education</span>
+                                    <h3 class="timeline-title">Higher Secondary & SSLC</h3>
+                                    <h4 class="timeline-org"><i class="fa-solid fa-school-flag"></i> Vidiyal Matric. Hr. Sec. School</h4>
+                                </div>
+                                <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Schooling</span>
+                            </div>
+                            <div class="score-grid">
+                                <div class="score-box">
+                                    <span class="score-val">90%</span>
+                                    <span class="score-lbl">SSLC (10th)</span>
+                                </div>
+                                <div class="score-box">
+                                    <span class="score-val">72.6%</span>
+                                    <span class="score-lbl">HSC (12th)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section id="projects" class="section bg-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Innovations & Practical Work</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="grid grid-3 gap-lg">
+                    <!-- Project 1: Power BI Retail Sales -->
+                    <div class="glass-card project-card">
+                        <div class="project-banner project-bg-1">
+                            <div class="project-overlay"></div>
+                            <span class="project-tag">Power BI + DAX</span>
+                            <div class="project-icon-wrapper">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Retail Sales & Business Intelligence Dashboard</h3>
+                            <p class="project-desc">
+                                Comprehensive Power BI dashboard analyzing retail performance, profit/loss metrics, and customer purchasing behavior using DAX calculations, Power Query ETL, and AI-assisted insights.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>Power BI</span>
+                                <span>DAX</span>
+                                <span>Power Query</span>
+                                <span>AI Prompt Eng</span>
+                            </div>
+                            <button class="btn btn-outline btn-full btn-project-detail" data-project="4">
+                                <i class="fa-solid fa-circle-info"></i> Project Details
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: React Financial Risk AML/KYC -->
+                    <div class="glass-card project-card">
+                        <div class="project-banner project-bg-2">
+                            <div class="project-overlay"></div>
+                            <span class="project-tag">React + Risk Analytics</span>
+                            <div class="project-icon-wrapper">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Loan Portfolio Analytics, AML & KYC Risk Dashboard</h3>
+                            <p class="project-desc">
+                                Financial risk web app simulating lending portfolio monitoring, Non-Performing Loan (NPL) tracking, rule-based AML alert generation, and weighted KYC risk scoring.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>React.js</span>
+                                <span>Recharts</span>
+                                <span>AML Monitoring</span>
+                                <span>KYC Risk Scoring</span>
+                            </div>
+                            <button class="btn btn-outline btn-full btn-project-detail" data-project="5">
+                                <i class="fa-solid fa-circle-info"></i> Project Details
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: IoT Geo Hazard -->
+                    <div class="glass-card project-card">
+                        <div class="project-banner project-bg-3">
+                            <div class="project-overlay"></div>
+                            <span class="project-tag">IoT + AI/ML</span>
+                            <div class="project-icon-wrapper">
+                                <i class="fa-solid fa-mountain-sun"></i>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">IoT-Based Smart Geo-Hazard Precaution System</h3>
+                            <p class="project-desc">
+                                Integrated IoT telemetry sensors with Artificial Intelligence & Machine Learning models and database storage to predict and mitigate geo-hazards in real time.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>IoT Sensors</span>
+                                <span>AI/ML</span>
+                                <span>SQL Sync</span>
+                                <span>Python</span>
+                            </div>
+                            <button class="btn btn-outline btn-full btn-project-detail" data-project="1">
+                                <i class="fa-solid fa-circle-info"></i> Project Details
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Accident Detection -->
+                    <div class="glass-card project-card">
+                        <div class="project-banner project-bg-1">
+                            <div class="project-overlay"></div>
+                            <span class="project-tag">Naan Mudhalvan Scheme</span>
+                            <div class="project-icon-wrapper">
+                                <i class="fa-solid fa-truck-medical"></i>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">IoT Vehicle Accident Detection System</h3>
+                            <p class="project-desc">
+                                Emergency response system developed under the Naan Mudhalvan Scheme that detects vehicular collisions and automatically dispatches GPS coordinates to ambulances.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>Accelerometer</span>
+                                <span>GPS/GSM</span>
+                                <span>Arduino/ESP</span>
+                            </div>
+                            <button class="btn btn-outline btn-full btn-project-detail" data-project="2">
+                                <i class="fa-solid fa-circle-info"></i> Project Details
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: Deloitte Job Sim -->
+                    <div class="glass-card project-card">
+                        <div class="project-banner project-bg-2">
+                            <div class="project-overlay"></div>
+                            <span class="project-tag">Deloitte Job Sim</span>
+                            <div class="project-icon-wrapper">
+                                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">Forensic Science & Data Analytics Simulation</h3>
+                            <p class="project-desc">
+                                Executed forensic data analytical tasks for Deloitte, examining pattern anomalies, auditing datasets, and producing executive visualization insights.
+                            </p>
+                            <div class="project-tech-stack">
+                                <span>Data Analytics</span>
+                                <span>Forensic Audit</span>
+                                <span>Deloitte Sim</span>
+                            </div>
+                            <button class="btn btn-outline btn-full btn-project-detail" data-project="3">
+                                <i class="fa-solid fa-circle-info"></i> Project Details
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Academic Activities -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Continuous Learning & Credentials</span>
+                    <h2 class="section-title">Certifications & Workshops</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="grid grid-2 gap-lg">
+                    <!-- Certifications Block -->
+                    <div>
+                        <h3 class="block-title"><i class="fa-solid fa-certificate"></i> Verified Certifications</h3>
+                        <div class="cert-list">
+                            <div class="glass-card cert-item">
+                                <div class="cert-icon icon-blue"><i class="fa-solid fa-award"></i></div>
+                                <div class="cert-info">
+                                    <h4>Data Analytics Job Simulation</h4>
+                                    <p class="cert-issuer">Issued by <strong>Deloitte</strong></p>
+                                    <span class="cert-badge">Practical Job Simulation</span>
+                                </div>
+                            </div>
+
+                            <div class="glass-card cert-item">
+                                <div class="cert-icon icon-green"><i class="fa-solid fa-chart-line"></i></div>
+                                <div class="cert-info">
+                                    <h4>Certificate in Data Visualization</h4>
+                                    <p class="cert-issuer">Issued by <strong>Great Learning</strong></p>
+                                    <span class="cert-badge">Visual Intelligence & Dashboards</span>
+                                </div>
+                            </div>
+
+                            <div class="glass-card cert-item">
+                                <div class="cert-icon icon-purple"><i class="fa-solid fa-comments"></i></div>
+                                <div class="cert-info">
+                                    <h4>Effective Communication</h4>
+                                    <p class="cert-issuer">Issued by <strong>Great Learning Academy</strong></p>
+                                    <span class="cert-badge">Professional Workplace Skills</span>
+                                </div>
+                            </div>
+
+                            <div class="glass-card cert-item">
+                                <div class="cert-icon icon-yellow"><i class="fa-solid fa-database"></i></div>
+                                <div class="cert-info">
+                                    <h4>Database Management Systems (DBMS)</h4>
+                                    <p class="cert-issuer">Ongoing Training by <strong>Scaler</strong></p>
+                                    <span class="cert-badge badge-warning"><i class="fa-solid fa-spinner fa-spin"></i> Undergoing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Academic Activities & Workshops -->
+                    <div>
+                        <h3 class="block-title"><i class="fa-solid fa-chalkboard-user"></i> Academic Workshops & Competitions</h3>
+                        <div class="cert-list">
+                            <div class="glass-card cert-item">
+                                <div class="cert-icon icon-red"><i class="fa-solid fa-solar-panel"></i></div>
+                                <div class="cert-info">
+                                    <h4>1-Week Workshop: Building Energy Management using IoT</h4>
+                                    <p class="cert-issuer">Hosted by <strong>NIT, Trichy</strong></p>
+                                    <span class="cert-badge">National Institute of Technology</span>
+                                </div>
+                            </div>
+
+                            <div class="glass-card cert-item">
+                                <div class="cert-icon icon-cyan"><i class="fa-solid fa-robot"></i></div>
+                                <div class="cert-info">
+                                    <h4>Power BI with AI Integration Workshop</h4>
+                                    <p class="cert-issuer">Hosted by <strong>Office Master</strong></p>
+                                    <span class="cert-badge">AI-Driven Business Intelligence</span>
+                                </div>
+                            </div>
+
+                            <div class="glass-card cert-item">
+                                <div class="cert-icon icon-blue"><i class="fa-solid fa-trophy"></i></div>
+                                <div class="cert-info">
+                                    <h4>National Level Quizathon Series-175</h4>
+                                    <p class="cert-issuer">Participated & Achieved Merit</p>
+                                    <span class="cert-badge">National Competition</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-subtitle">Get in Touch</span>
+                    <h2 class="section-title">Contact & Connect</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="grid grid-2 gap-lg">
+                    <div class="glass-card contact-info-card">
+                        <h3>Let's build something remarkable together!</h3>
+                        <p class="mb-lg">
+                            I'm actively seeking opportunities in IoT Systems Engineering, Data Analytics, Python Development, and Embedded Smart Solutions. Feel free to connect!
+                        </p>
+
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div>
+                                    <span class="c-label">Phone / WhatsApp</span>
+                                    <a href="tel:+919345832080" class="c-value">+91 9345832080</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <span class="c-label">Email Address</span>
+                                    <a href="mailto:pragadeesh2704@gmail.com" class="c-value">pragadeesh2704@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <span class="c-label">Location</span>
+                                    <span class="c-value">1/98, Kallamedu, Trichy - 621 305, Tamil Nadu</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-links-wrapper">
+                            <h4>Professional Profiles</h4>
+                            <div class="social-pills">
+                                <a href="https://www.linkedin.com/in/pragadeeswaran-v" target="_blank" class="social-pill linkedin">
+                                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                                </a>
+                                <a href="https://github.com/Pragadeeswaran2704" target="_blank" class="social-pill github">
+                                    <i class="fa-brands fa-github"></i> GitHub
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="glass-card contact-form-card">
+                        <h3>Send a Message</h3>
+                        <form id="contact-form" onsubmit="event.preventDefault(); alert('Message sent successfully! Pragadeeswaran will get back to you soon.');">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input type="text" id="name" required placeholder="John Doe">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" required placeholder="john@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" required placeholder="Opportunity / Project Inquiry">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="4" required placeholder="Write your message here..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full">
+                                <i class="fa-solid fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p>&copy; 2026 PRAGADEESWARAN V. All Rights Reserved.</p>
+            <p class="footer-credit">Built with modern Web Architecture | B.E. ECE Graduate</p>
+        </div>
+    </footer>
+
+    <!-- Resume Modal -->
+    <div class="modal" id="resume-modal">
+        <div class="modal-backdrop" id="modal-backdrop"></div>
+        <div class="modal-content glass-card">
+            <button class="modal-close" id="modal-close"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h2><i class="fa-solid fa-file-pdf"></i> Resume Preview - PRAGADEESWARAN V</h2>
+                <div class="modal-actions">
+                    <button class="btn btn-sm btn-primary" onclick="window.print()"><i class="fa-solid fa-print"></i> Print / Save PDF</button>
+                </div>
+            </div>
+            <div class="modal-body printable-resume">
+                <div class="resume-paper">
+                    <div class="resume-header">
+                        <h1>PRAGADEESWARAN V</h1>
+                        <p class="resume-address">1/98, Kallamedu, Trichy-621 305.</p>
+                        <p class="resume-contacts">
+                            <span><i class="fa-solid fa-phone"></i> +91 9345832080</span> | 
+                            <span><i class="fa-solid fa-envelope"></i> pragadeesh2704@gmail.com</span> | 
+                            <span><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/pragadeeswaran-v" target="_blank" style="color: inherit; text-decoration: none;">linkedin.com/in/pragadeeswaran-v</a></span> | 
+                            <span><i class="fa-brands fa-github"></i> <a href="https://github.com/Pragadeeswaran2704" target="_blank" style="color: inherit; text-decoration: none;">github.com/Pragadeeswaran2704</a></span>
+                        </p>
+                    </div>
+
+                    <div class="resume-section">
+                        <h3>EXECUTIVE SUMMARY</h3>
+                        <p>Electronics and Communication Engineering graduate with a strong background in IoT, data analytics, and emerging technologies. Developed proficiency in Python, SQL, data visualization, and digital marketing, with extensive experience using MS Office tools to support productivity. Recognized for clear communication, teamwork, and strategic planning abilities. Gained practical experience through certifications, workshops, and hands-on projects, with a proven record of delivering practical solutions and contributing effectively in dynamic, growth-oriented environments.</p>
+                    </div>
+
+                    <div class="resume-two-col">
+                        <div class="resume-col">
+                            <div class="resume-section">
+                                <h3>HARD SKILLS</h3>
+                                <ul>
+                                    <li>Data Visualization</li>
+                                    <li>SQL</li>
+                                    <li>MS Office Suite</li>
+                                    <li>Digital Marketing</li>
+                                    <li>Python</li>
+                                    <li>Internet of Things</li>
+                                    <li>Prompt Engineering</li>
+                                </ul>
+                            </div>
+
+                            <div class="resume-section">
+                                <h3>ACADEMIC BACKGROUND</h3>
+                                <p><strong>Vidiyal Matric. Hr. Sec. School</strong><br>SSLC - 90% | HSC - 72.6%</p>
+                                <p><strong>M.I.E.T. ENGINEERING COLLEGE (2021-2025)</strong><br>B.E. (Electronics and Communication Engineering)<br>CGPA – 8.1</p>
+                            </div>
+
+                            <div class="resume-section">
+                                <h3>EXPERIENCE</h3>
+                                <p><strong>AR Process Associate (Data & Insurance Verification)</strong> | Omega Healthcare<br><em>Oct 03, 2025 – Mar 11, 2026</em></p>
+                                <ul>
+                                    <li>Executed high-volume healthcare data validation, auditing patient insurance coverage and pharmacy claims across multi-payer databases.</li>
+                                    <li>Analyzed eligibility discrepancies and claim variance patterns to minimize claim rejections and ensure data integrity.</li>
+                                </ul>
+                                <p><strong>IoT Systems Intern</strong> | Aiverz Technologies (2024)</p>
+                                <ul>
+                                    <li>Completed an Internship on Internet of Things hardware-software telemetry and microcontroller systems.</li>
+                                </ul>
+                            </div>
+
+                            <div class="resume-section">
+                                <h3>CERTIFICATIONS</h3>
+                                <ul>
+                                    <li>Data Analytics Job Simulation certification by Deloitte.</li>
+                                    <li>Certificate in Data Visualization by Great Learning.</li>
+                                    <li>Certificate in Effective Communication by Great Learning Academy.</li>
+                                    <li>Undergoing the Database Management Systems Course by Scaler.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="resume-col">
+                            <div class="resume-section">
+                                <h3>SOFT SKILLS</h3>
+                                <ul>
+                                    <li>Communication</li>
+                                    <li>Strategic Planning</li>
+                                    <li>Teamwork & Adaptability</li>
+                                    <li>Time Management</li>
+                                    <li>Situational Analysis</li>
+                                    <li>Problem Solving</li>
+                                    <li>Work Ethics & Reliability</li>
+                                </ul>
+                            </div>
+
+                            <div class="resume-section">
+                                <h3>PROJECTS</h3>
+                                <ol>
+                                    <li>Completed practical tasks in: Data Analysis Forensic Science by Deloitte.</li>
+                                    <li>An IoT based vehicle accident detection system to communicate ambulance, hospitals or any emergency under the Naan Mudhalvan Scheme.</li>
+                                    <li>IoT based Smart Geo-Hazard Precaution system using AIML with database integration.</li>
+                                </ol>
+                            </div>
+
+                            <div class="resume-section">
+                                <h3>ACADEMIC ACTIVITIES</h3>
+                                <ul>
+                                    <li>Attended a one-week workshop on "Building Energy Management using IoT" at NIT, Trichy.</li>
+                                    <li>Attended a workshop on Power BI with AI integration by Office Master.</li>
+                                    <li>Participated in National level Quizathon series-175.</li>
+                                </ul>
+                            </div>
+
+                            <div class="resume-section">
+                                <h3>LANGUAGES</h3>
+                                <ul>
+                                    <li>Tamil</li>
+                                    <li>English</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Project Detail Modal -->
+    <div class="modal" id="project-modal">
+        <div class="modal-backdrop" id="p-modal-backdrop"></div>
+        <div class="modal-content glass-card">
+            <button class="modal-close" id="p-modal-close"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-body" id="project-modal-body">
+                <!-- Injected dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
