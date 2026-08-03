@@ -190,6 +190,10 @@ document.addEventListener('DOMContentLoaded', () => {
             tech: ['React.js', 'Recharts', 'Anti-Money Laundering (AML)', 'KYC Risk Scoring', 'JavaScript (ES6)'],
             description: `
                 <p class="mb-lg">Designed a financial risk analytics dashboard simulating a lending institution's portfolio to evaluate loan health, detect financial crime, and automate KYC due diligence.</p>
+                <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
+                    <a href="https://lending-risk-analytics.vercel.app" target="_blank" class="btn btn-primary btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Open Live App</a>
+                    <a href="https://github.com/Pragadeeswaran2704/lending-risk-analytics" target="_blank" class="btn btn-secondary btn-sm"><i class="fa-brands fa-github"></i> GitHub Repository</a>
+                </div>
                 <h4 style="margin-bottom: 0.5rem; color: var(--accent-cyan);">Key System Modules:</h4>
                 <ul style="padding-left: 1.25rem; margin-bottom: 1.5rem; color: var(--text-muted);">
                     <li><strong>Portfolio Performance Monitoring:</strong> Real-time tracking of outstanding balances, collection rates, and Non-Performing Loan (NPL) distributions using Recharts.</li>
