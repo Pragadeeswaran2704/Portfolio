@@ -242,11 +242,37 @@ body.theme-light .bg-grid {
 }
 
 .nav-logo {
-    font-family: var(--font-mono);
-    font-size: 1.35rem;
+    font-family: var(--font-sans);
+    font-size: 1.1rem;
     font-weight: 700;
     color: var(--text-main);
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+}
+
+.nav-avatar-img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    border: 2px solid var(--accent-cyan);
+    box-shadow: 0 0 10px rgba(6, 182, 212, 0.4);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.nav-avatar-img:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 15px rgba(6, 182, 212, 0.7);
+}
+
+.nav-profile-name {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--text-main);
+    letter-spacing: -0.2px;
 }
 
 .logo-accent {
