@@ -175,6 +175,9 @@ document.addEventListener('DOMContentLoaded', () => {
             tech: ['Microsoft Power BI', 'DAX', 'Power Query ETL', 'Star-Schema Data Modeling', 'Claude & ChatGPT Prompt Eng'],
             description: `
                 <p class="mb-lg">Developed an end-to-end Business Intelligence dashboard using Microsoft Power BI to monitor retail performance, customer purchasing trends, and profitability metrics.</p>
+                <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
+                    <a href="https://github.com/Pragadeeswaran2704/Retail-Analysis" target="_blank" class="btn btn-secondary btn-sm"><i class="fa-brands fa-github"></i> GitHub Repository</a>
+                </div>
                 <h4 style="margin-bottom: 0.5rem; color: var(--accent-cyan);">Core Capabilities & Architectural Highlights:</h4>
                 <ul style="padding-left: 1.25rem; margin-bottom: 1.5rem; color: var(--text-muted);">
                     <li><strong>ETL & Data Transformation:</strong> Engineered Power Query data cleaning pipelines to transform raw Excel sales records into star-schema analytical models.</li>
@@ -221,17 +224,20 @@ document.addEventListener('DOMContentLoaded', () => {
             `
         },
         '2': {
-            title: 'IoT-Based Vehicle Accident Detection System',
+            title: 'IoT-Based Vehicle Accident Detection & Emergency Dispatch System',
             badge: 'Naan Mudhalvan Scheme Project',
-            tech: ['Microcontroller', 'Accelerometer Sensor', 'GPS Module', 'GSM Dispatch', 'Naan Mudhalvan Framework'],
+            tech: ['Microcontroller (Arduino/ESP)', 'MPU6050 Accelerometer', 'Neo-6M GPS Module', 'GSM SIM900A/800L', 'Naan Mudhalvan Scheme'],
             description: `
-                <p class="mb-lg">Developed under the prestigious <strong>Naan Mudhalvan Scheme</strong>, this system focuses on reducing emergency response latency during vehicular crashes on highways.</p>
-                <h4 style="margin-bottom: 0.5rem; color: var(--accent-cyan);">Key Features & Capabilities:</h4>
+                <p class="mb-lg">Developed an automated emergency response system under the Naan Mudhalvan Scheme that detects vehicular collisions and automatically dispatches GPS coordinates to ambulances and emergency services.</p>
+                <div style="display: flex; gap: 1rem; margin-bottom: 1.5rem; flex-wrap: wrap;">
+                    <a href="https://github.com/Pragadeeswaran2704/IoT-Project-" target="_blank" class="btn btn-secondary btn-sm"><i class="fa-brands fa-github"></i> GitHub Repository</a>
+                </div>
+                <h4 style="margin-bottom: 0.5rem; color: var(--accent-cyan);">Key Architecture & Features:</h4>
                 <ul style="padding-left: 1.25rem; margin-bottom: 1.5rem; color: var(--text-muted);">
-                    <li><strong>Accident Detection:</strong> High-g force and tilt sensors monitor vehicle orientation and sudden impact vectors.</li>
-                    <li><strong>Geolocated Telemetry:</strong> Integrated GPS module captures exact latitude and longitude coordinates upon collision.</li>
-                    <li><strong>Emergency Dispatch:</strong> Automated GSM transmitter dispatches emergency distress SMS directly to nearest hospitals, ambulances, and police stations.</li>
-                    <li><strong>False Alarm Prevention:</strong> Manual cancel switch allows vehicle occupants to override accidental triggers within a 15-second window.</li>
+                    <li><strong>Impact & Rollover Sensing:</strong> Utilized MPU6050/ADXL345 accelerometers to detect high G-force impacts, sudden deceleration, and vehicle rollover angles.</li>
+                    <li><strong>Geospatial Tracking:</strong> Interfaced Neo-6M GPS module to acquire real-time latitude and longitude coordinates upon accident confirmation.</li>
+                    <li><strong>Automated Emergency SMS Dispatch:</strong> Programmed GSM SIM900A/800L module using AT commands to dispatch immediate alert SMS with Google Maps location links to emergency contacts and hospitals.</li>
+                    <li><strong>False Alarm Prevention:</strong> Integrated a 15-second manual override safety switch allowing vehicle occupants to cancel accidental triggers before dispatch.</li>
                 </ul>
             `
         },
