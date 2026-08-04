@@ -204,17 +204,19 @@ document.addEventListener('DOMContentLoaded', () => {
             `
         },
         '1': {
-            title: 'IoT-Based Smart Geo-Hazard Precaution System using AI/ML & DB Integration',
-            badge: 'Key Academic Project',
-            tech: ['IoT Sensors', 'Python', 'AI/ML Algorithm', 'SQL Database', 'ESP32 / Arduino'],
+            title: 'Smart Geo-Hazard Precaution System using IoT, AI & LoRaWAN',
+            badge: 'B.E. Final Year Capstone Project',
+            tech: ['Raspberry Pi 4', 'Random Forest ML (92.86%)', 'LoRa SX1278 (433MHz)', 'Python / Scikit-learn', 'Twilio API & SMTP', 'MPU6050 & MCP3008 ADC'],
             description: `
-                <p class="mb-lg">This project presents a real-time geo-hazard precautionary framework designed to monitor land stability, seismic vibrations, and environmental indicators in high-risk topographies.</p>
-                <h4 style="margin-bottom: 0.5rem; color: var(--accent-cyan);">Key Architecture & Modules:</h4>
+                <p class="mb-lg">Designed and built an autonomous, solar-powered landslide early warning system leveraging Raspberry Pi 4, Random Forest machine learning algorithms, and LoRaWAN wireless telemetry for off-grid disaster monitoring in hilly regions of Tamil Nadu (Ooty, Kodaikanal, Nilgiris).</p>
+                <h4 style="margin-bottom: 0.5rem; color: var(--accent-cyan);">Core Technical Architecture & System Features:</h4>
                 <ul style="padding-left: 1.25rem; margin-bottom: 1.5rem; color: var(--text-muted);">
-                    <li><strong>Sensor Layer:</strong> Deployed accelerometer, soil moisture, and vibration sensors connected to microcontrollers.</li>
-                    <li><strong>Predictive Analytics:</strong> Machine learning models evaluate real-time sensor streams to detect pre-slide anomaly patterns.</li>
-                    <li><strong>Database Integration:</strong> Structured SQL database pipeline logs historical telemetry for automated risk trend analysis.</li>
-                    <li><strong>Alert System:</strong> Instant trigger system sends early warnings to municipal safety dashboards and emergency response units.</li>
+                    <li><strong>Multi-Sensor Data Acquisition:</strong> Integrated MPU6050 3-axis MEMS accelerometer (I2C) for ground tilt/vibration, DHT22 for humidity/temp, and analog soil moisture/rain sensors interfaced via an MCP3008 8-channel ADC (SPI).</li>
+                    <li><strong>Random Forest AI Classifier (92.86% Accuracy):</strong> Trained a Scikit-learn Random Forest model (250 estimators, max depth 10) on IMD weather & soil telemetry datasets, achieving a 92.86% predictive accuracy with feature importance ranking.</li>
+                    <li><strong>Hybrid Decision Engine:</strong> Combined ML classification with hardcoded IMD threshold backups (>50mm/hr rain, >750 ADC soil moisture, >1.5g acceleration, >90% humidity).</li>
+                    <li><strong>Tri-Mode Emergency Alert System:</strong> Triggers 5V local siren buzzer, dispatches real-time SMS alerts via Twilio REST API, and sends structured email reports via SMTP protocol.</li>
+                    <li><strong>Long-Range Off-Grid LoRa Telemetry:</strong> Programmed LoRa SX1278 transceiver (433 MHz) using pySX127x to broadcast JSON alert packets over long distances without cellular/internet access.</li>
+                    <li><strong>Autonomous Solar Power:</strong> Configured a 12V 20W Solar Panel, Solar Charge Controller, 12V 7Ah SLA Battery, and LM2596 Buck Converter for 24x7 continuous off-grid operation.</li>
                 </ul>
             `
         },
