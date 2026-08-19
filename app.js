@@ -256,6 +256,21 @@ document.addEventListener('DOMContentLoaded', () => {
                     <li><strong>Executive Reporting:</strong> Created interactive data visualization dashboards presenting forensic investigation findings for stakeholders.</li>
                 </ul>
             `
+        },
+        '6': {
+            title: 'AI-Directed Web Platform & Prompt Engineering System Architecture',
+            badge: 'Prompt Engineering & Generative UI/UX',
+            tech: ['Prompt Engineering', 'AI System Architecture', 'HTML5 & CSS3', 'JavaScript (ES6)', 'SEO Optimization'],
+            description: `
+                <p class="mb-lg">Architected and built an executive glassmorphic web platform and multi-format ATS resume engine using advanced Prompt Engineering techniques, structured AI system directives, and AI pair-programming.</p>
+                <h4 style="margin-bottom: 0.5rem; color: var(--accent-cyan);">Core Engineering Highlights:</h4>
+                <ul style="padding-left: 1.25rem; margin-bottom: 1.5rem; color: var(--text-muted);">
+                    <li><strong>AI System Directives & System Prompts:</strong> Formulated structured prompt chains, persona definitions, and strict edge-case constraints to direct AI agents in generating modular HTML5/CSS3 layout systems.</li>
+                    <li><strong>Generative UI/UX Design System:</strong> Created a vibrant glassmorphic dark-mode interface featuring dynamic JavaScript stat counters, modal dialogs, and smooth navbar scrolling.</li>
+                    <li><strong>Automated Code Refactoring:</strong> Directed AI agents through iterative debugging, SEO meta tag optimization, and asset mapping pipelines.</li>
+                    <li><strong>Data Integrity & Verification:</strong> Enforced strict data validation rules across 15+ verified credentials, capstone projects, and international research publications.</li>
+                </ul>
+            `
         }
     };
 
