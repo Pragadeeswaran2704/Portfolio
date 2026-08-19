@@ -101,20 +101,22 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const animateStats = () => {
         statNumbers.forEach(stat => {
-            const targetText = stat.getAttribute('data-target');
+            const targetText = stat.getAttribute('data-target') || stat.innerText;
             const hasPercent = targetText.includes('%');
             const hasPlus = targetText.includes('+');
+            const decAttr = stat.getAttribute('data-decimal');
             const target = parseFloat(targetText);
 
             if (isNaN(target)) return;
 
+            const decimals = decAttr ? parseInt(decAttr, 10) : (target % 1 !== 0 ? 2 : 0);
             let count = 0;
-            const step = target / 40;
+            const step = target / 35;
 
             const updateCount = () => {
                 count += step;
                 if (count < target) {
-                    stat.innerText = count.toFixed(1 > 0 && target % 1 !== 0 ? 1 : 0) + (hasPlus ? '+' : '') + (hasPercent ? '%' : '');
+                    stat.innerText = count.toFixed(decimals) + (hasPlus ? '+' : '') + (hasPercent ? '%' : '');
                     requestAnimationFrame(updateCount);
                 } else {
                     stat.innerText = targetText;
